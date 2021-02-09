@@ -1,0 +1,149 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .side {
+    display: none !important;
+  }
+
+  #middle {
+    width: 100% !important;
+    max-height: 100% !important;
+  }
+
+  #playArea {
+    width: 100% !important;
+  }
+
+  #scores {
+    margin: -40px auto 40px auto !important;
+  }
+}
+
+.side {
+  float: left;
+  width: 15%;
+  height: 100%;
+  background-image: url(media/images/background.jpg);
+  margin-bottom: 0;
+}
+
+#middle {
+  float: left;
+  width: 69.897%;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px auto;
+  width: fit-content;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 50px 0;
+}
+
+.button {
+  display: inline-block;
+  width: 200px;
+  height: 75px;
+  margin: auto;
+  text-align: center;
+  line-height: 75px;
+  font-size: 44px;
+  text-decoration: none;
+  border: 5px solid transparent;
+  border-radius: 5%;
+  letter-spacing: 0.05em;
+}
+
+.button:hover {
+  opacity: 75%;
+}
+
+#startButton {
+  display: block;
+  background-color: lightgreen;
+  margin: auto;
+  color: green;
+  border: 5px solid green;
+}
+
+#playArea {
+  display: none;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#scores {
+  width: 90%;
+  margin: 0px auto 40px auto;
+  border: 1px solid transparent;
+}
+
+#hiScore {
+  float: left;
+}
+
+#score {
+  float: right;
+}
+
+#cardImage {
+  display: block;
+  max-height: 300px;
+  max-width: 300px;
+  margin: auto;
+  border: gold 5px solid;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+#currentCard {
+  width: 200px;
+  height: 15px;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 15px;
+  font-size: 44px;
+  width: fit-content;
+  margin: 50px auto;
+  padding: 10px;
+  background-color: white;
+}
+
+#higherButton {
+  background-color: lightgreen;
+  border-color: green;
+  color: green;
+  margin-bottom: 0px;
+}
+
+#lowerButton {
+  background-color: salmon;
+  border-color: red;
+  color: red;
+  margin-bottom: 0px;
+}
+
+#gameOver {
+  display: none;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#retryButton {
+  background-color: lightgreen;
+  border-color: green;
+  color: green;
+  display: block;
+  width: fit-content;
+  padding: 0 5px;
+}
